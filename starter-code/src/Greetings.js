@@ -1,5 +1,5 @@
 import React from 'react';
-import IdCard from './IdCard';
+// import IdCard from './IdCard';
 
 const Greetings = props => {
  console.log(props)

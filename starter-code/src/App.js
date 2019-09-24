@@ -4,11 +4,10 @@ import './App.css';
 import './IdCard';
 import IdCard from './IdCard';
 import Greetings from './Greetings';
+import Random from './Random';
 
 class App extends Component {
   render() {
-
-
     return (
       <div className="App">
         <IdCard
@@ -33,6 +32,8 @@ class App extends Component {
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
 
+        <Random min={1} max={6}/>
+        <Random min={1} max={100}/>
       </div>
     );
   }
