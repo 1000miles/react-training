@@ -2,8 +2,8 @@ import React from "react";
 
 const IdCard = props => {
 
-  console.log(props)
   
+
   const {lastName, firstName, gender, height, birth, picture} = props;
 
   return (

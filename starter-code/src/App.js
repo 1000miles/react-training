@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './IdCard';
 import IdCard from './IdCard';
+import Greetings from './Greetings';
 
 class App extends Component {
   render() {
@@ -28,6 +29,10 @@ class App extends Component {
           birth={new Date("1988-05-11").toString()}
           picture="https://randomuser.me/api/portraits/women/44.jpg"
         />
+
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">François</Greetings>
+
       </div>
     );
   }
